@@ -1,0 +1,17 @@
+{
+    "name": "baijunyao/phone",
+    "description": "phone city",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baijunyao",
+            "email": "baijunyao@baijunyao.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Baijunyao\\Phone\\": "src/"
+        }
+    }
+}
