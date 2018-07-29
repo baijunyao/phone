@@ -10,11 +10,11 @@ class Phone
     /**
      * 获取手机号服务商以及归属地
      *
-     * @param int $phone
+     * @param  $phone
      *
      * @return array|mixed
      */
-    public static function find(int $phone)
+    public static function find($phone)
     {
         $url = 'https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel='.$phone."&t=".time();
         $gbkStr = file_get_contents($url);
